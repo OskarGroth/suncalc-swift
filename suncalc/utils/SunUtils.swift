@@ -15,7 +15,10 @@ class SunUtils {
 	}
 	
 	class func getEquationOfCenter(M:Double) -> Double {
-		return Constants.RAD() * (1.9148 * sin(M) + 0.02 * sin(2 * M) + 0.0003 * sin(3 * M))
+	    let firstFactor = 1.9148 * sin(M)
+	   let secondFactor = 0.02 * sin(2 * M)
+	   let thirdFactor = 0.0003 * sin(3 * M)
+		return Constants.RAD() * (firstFactor + secondFactor + thirdFactor)
 	}
 	
 	class func getEclipticLongitudeM(M:Double) -> Double {
