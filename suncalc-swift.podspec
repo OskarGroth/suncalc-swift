@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
 
 	s.requires_arc = true
 	s.platform = :osx
-	s.ios.deployment_target = "10.10"
+	s.osx.deployment_target = "10.10"
 	s.source   = { :git => "https://github.com/OskarGroth/suncalc-swift.git", :tag => "0.1.2"}
 	s.source_files = "suncalc/**/*.swift"
 end
