@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-	s.name        = "SunCalc"
+	s.name        = "suncalc-swift"
 	s.version     = "0.1.2"
 	s.summary     = "This is a swift port for iOS of https://github.com/mourner/suncalc"
 	s.homepage    = "https://github.com/OskarGroth/suncalc-swift"
